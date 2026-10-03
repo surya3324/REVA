@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #000000;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ff7a00;
+}
+
+.navbar h2 {
+  margin: 0;
+  color: #ff7a00;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff7a00;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 11px 20px;
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Home */
+
+.home-page {
+  text-align: center;
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+.home-page h1 {
+  font-size: 45px;
+}
+
+.home-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Books */
+
+.books-page {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.book-card {
+  background-color: #1c1c1c;
+  border: 1px solid #333333;
+  border-left: 4px solid #ff7a00;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.book-card h2 {
+  color: #ff7a00;
+  margin-top: 0;
+}
+
+.book-card p {
+  margin: 10px 0;
+}
+
+/* Book Details */
+
+.book-details-page {
+  max-width: 700px;
+  margin: auto;
+}
+
+.book-details {
+  background-color: #1c1c1c;
+  border: 1px solid #333333;
+  border-left: 4px solid #ff7a00;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.book-details h2 {
+  color: #ff7a00;
+}
+
+/* Cart */
+
+.cart-page {
+  max-width: 600px;
+  margin: auto;
+}
+
+.cart-form {
+  background-color: #1c1c1c;
+  border: 1px solid #333333;
+  border-top: 4px solid #ff7a00;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.cart-form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  color: #ff7a00;
+  font-weight: bold;
+}
+
+.cart-form input,
+.cart-form textarea,
+.cart-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  background-color: #111111;
+  color: white;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.cart-form textarea {
+  height: 90px;
+  resize: none;
+}
+
+.cart-form button {
+  display: block;
+  margin: 25px auto 0;
+}
+
+/* Orders */
+
+.orders-page {
+  max-width: 700px;
+  margin: auto;
+}
+
+.order-card {
+  background-color: #1c1c1c;
+  border: 1px solid #333333;
+  border-left: 4px solid #ff7a00;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.order-card h2 {
+  color: #ff7a00;
+}
